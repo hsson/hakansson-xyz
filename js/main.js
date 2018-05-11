@@ -1,0 +1,1 @@
+console.log("Welcome to hakansson.xyz. Unfortunately, there is no interesting Javascript code to look at here :)")

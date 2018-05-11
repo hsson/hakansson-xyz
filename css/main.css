@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+/*
+    Style for https://hakansson.xyz by Alexander Håkansson
+
+    #22364E     - Blue
+    #1D3045     - Darker blue
+    #44D18D     - Accent green
+    #FFF0D5     - Yellowish White
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+}
+
+html {
+    background-color: #22364E;
+    color: #44D18D;
+}
+
+.logo {
+    margin-top: 4rem;
+}
+
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 8.5rem;
+    height: 8.5rem;
+}
+
+.bottom-sheet {
+    text-align: center;
+
+    padding-top: 2rem;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 33vh;
+    min-height: 15rem;
+    width: 100%;
+
+    background-color: #1D3045;
+}
+
+.bottom-sheet h1 {
+    font-size: 2.75em;
+}
+
+.bottom-sheet h2 {
+    font-size: 2em;
+    color: #FFF0D5;
+}
+
+.bottom-sheet h3 {
+    font-size: 1.25em;
+    color: #FFF0D5;
+}
+
+.social-icons {
+    position: absolute;
+
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.social-icons img {
+    width: 3rem;
+    height: 3rem;
+}
