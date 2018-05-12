@@ -85,3 +85,47 @@ html {
     width: 3rem;
     height: 3rem;
 }
+
+/* Desktop specifc below */
+@media only screen and (min-width: 800px) {
+
+    .bottom-sheet .info {
+        text-align: left;
+
+        margin-left: 5rem;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+    }
+
+    .bottom-sheet h1 {
+        font-size: 2.75em;
+    }
+
+    .bottom-sheet h2 {
+        font-size: 2.25em;
+    }
+
+    .bottom-sheet h3 {
+        font-size: 1.75em;
+    }
+
+    .bottom-sheet .social-icons {
+        text-align: right;
+        height: 3rem;
+
+        margin-right: 5rem;
+        position: absolute;
+        top: 25%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .logo-wrapper {
+        position: absolute;
+        left: 5rem;
+        margin: 0;
+        margin-top: 4rem;
+    }
+}
