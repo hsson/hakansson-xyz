@@ -129,3 +129,18 @@ html {
         margin-top: 4rem;
     }
 }
+
+/* For extra thin phones (e.g. iPhone X) */
+@media only screen and (max-width: 400px) {
+    .bottom-sheet h1 {
+        font-size: 2.25em;
+    }
+
+    .bottom-sheet h2 {
+        font-size: 1.75em;
+    }
+
+    .bottom-sheet h3 {
+        font-size: 1.5em;
+    }
+}
