@@ -16,6 +16,10 @@
     font-weight: 400;
 }
 
+* a {
+    text-decoration: none;
+}
+
 html {
     background-color: #22364E;
     color: #44D18D;
