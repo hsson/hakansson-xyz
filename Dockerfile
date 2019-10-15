@@ -1,4 +1,4 @@
-FROM nginx:1.17-alpine
+FROM arm32v7/nginx:1.17
 
 # Copy website content
 COPY src /usr/share/nginx/html
