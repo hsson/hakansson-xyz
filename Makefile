@@ -1,18 +1,22 @@
+VERSION := $(shell cat VERSION)
+
 .PHONY: help build push insert_tracking
 
 default: help
 
 help:
+	@echo "Version: ${VERSION}"
+	@echo
 	@echo "Available targets:"
 	@echo "    build"
 	@echo "    push"
 	@echo "    insert_tracking"
 
 build:
-	docker build -t hakansson/hsson-dev:latest .
+	docker build -t hakansson/hsson-dev:${VERSION} .
 
 push:
-	docker push hakansson/hsson-dev:latest
+	docker push hakansson/hsson-dev:${VERSION}
 
 insert_tracking:
 ifndef TRACKING_CODE
