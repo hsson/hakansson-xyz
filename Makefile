@@ -23,4 +23,4 @@ ifndef TRACKING_CODE
 	$(error TRACKING_CODE is not set)
 endif
 	@echo "Using tracking code \"${TRACKING_CODE}\""
-	sed -i "" 's/<ANALYTICS CODE HERE>/${TRACKING_CODE}/g' src/*.html
+	sed -i "" 's/<ANALYTICS CODE HERE>/${TRACKING_CODE}/g' public/*.html
